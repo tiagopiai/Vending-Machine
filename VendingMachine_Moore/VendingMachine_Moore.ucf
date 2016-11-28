@@ -1,0 +1,16 @@
+## 50 MHz clock
+NET "clk_50MHz"	LOC = "B8" ;
+
+## Inputs
+NET "reset"			LOC = "P11";
+NET "Nickel"		LOC = "A7";	
+NET "Dime"			LOC = "M4";	
+NET "Quarter"		LOC = "C11";
+
+## Outputs
+NET "Product"		LOC = "P7";				
+NET "X_change"		LOC = "M11";				
+NET "V_change"		LOC = "M5";					
+
+NET "ledClk"		LOC = "G1";
+NET "ledCoin"		LOC = "P4";
